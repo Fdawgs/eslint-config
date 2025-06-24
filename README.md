@@ -5,11 +5,11 @@
 [![CI](https://github.com/Fdawgs/eslint-config/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fdawgs/eslint-config/actions/workflows/ci.yml)
 [![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
-> @fdawgs shareable flat ESLint configuration
+> @fdawgs' shareable flat ESLint config
 
 ## Overview
 
-This package provides a shareable ESLint configuration that can be used across multiple projects. It is designed to enforce consistent coding styles across personal and professional projects, ensuring that code is clean, readable, and maintainable.
+This package provides a shareable ESLint config that can be used across multiple projects. It is designed to enforce consistent coding styles across personal and professional projects, ensuring that code is clean, readable, and maintainable.
 
 ## Installation
 
