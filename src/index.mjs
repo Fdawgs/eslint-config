@@ -47,6 +47,14 @@ const config = [
 				"error",
 				{
 					props: true,
+					ignorePropertyModificationsFor: [
+						"acc", // Reduce accumulators
+						"accumulator", // Reduce accumulators
+						"req", // Server requests
+						"request", // Server requests
+						"res", // Server responses
+						"response", // Server responses
+					],
 				},
 			],
 			"no-proto": "error",
