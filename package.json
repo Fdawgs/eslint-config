@@ -25,9 +25,11 @@
 	},
 	"scripts": {
 		"build": "tsc",
+		"lint:fix": "npm run lint -- --fix",
 		"lint:licenses": "node scripts/license-checker.cjs",
-		"lint:prettier": "prettier . -c -u",
 		"lint:prettier:fix": "prettier . -w -u",
+		"lint:prettier": "prettier . -c -u",
+		"lint": "eslint . --cache",
 		"prepare": "husky",
 		"test": "npm run lint:prettier"
 	},
