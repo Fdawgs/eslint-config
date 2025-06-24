@@ -1,0 +1,16 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"outDir": "types",
+		"resolveJsonModule": true,
+		"strict": true,
+		"target": "ES2023"
+	},
+	"include": ["src/index.mjs"]
+}

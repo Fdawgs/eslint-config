@@ -1,0 +1,63 @@
+{
+	"name": "@fdawgs/eslint-config",
+	"version": "0.0.1",
+	"description": "@fdawgs shareable flat ESLint configuration",
+	"keywords": [
+		"eslint",
+		"eslint-config"
+	],
+	"main": "src/index.mjs",
+	"type": "module",
+	"types": "types/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Fdawgs/eslint-config.git"
+	},
+	"homepage": "https://github.com/Fdawgs/eslint-config",
+	"bugs": {
+		"url": "https://github.com/Fdawgs/eslint-config/issues"
+	},
+	"license": "MIT",
+	"author": "Frazer Smith <frazer.dev@icloud.com>",
+	"funding": "https://github.com/sponsors/Fdawgs",
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"build": "tsc",
+		"lint:licenses": "node scripts/license-checker.cjs",
+		"lint:prettier": "prettier . -c -u",
+		"lint:prettier:fix": "prettier . -w -u",
+		"prepare": "husky",
+		"test": "npm run lint:prettier"
+	},
+	"commitlint": {
+		"extends": [
+			"@commitlint/config-conventional"
+		]
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
+		"@types/eslint-plugin-security": "^3.0.0",
+		"husky": "^9.1.7",
+		"license-checker": "^25.0.1",
+		"prettier": "^3.6.0",
+		"spdx-copyleft": "^1.0.0"
+	},
+	"peerDependencies": {
+		"eslint": "^9.0.0"
+	},
+	"dependencies": {
+		"@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
+		"@eslint/compat": "^1.3.0",
+		"@eslint/js": "^9.29.0",
+		"eslint-config-prettier": "^10.1.5",
+		"eslint-plugin-import": "^2.32.0",
+		"eslint-plugin-jsdoc": "^51.2.1",
+		"eslint-plugin-n": "^17.20.0",
+		"eslint-plugin-promise": "^7.2.1",
+		"eslint-plugin-regexp": "^2.9.0",
+		"eslint-plugin-security": "^3.0.1"
+	}
+}
