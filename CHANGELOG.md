@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/Fdawgs/eslint-config/compare/v1.0.1...v1.0.2) (2025-06-25)
+
+
+### Miscellaneous
+
+* **package:** add missing types ([#8](https://github.com/Fdawgs/eslint-config/issues/8)) ([820286b](https://github.com/Fdawgs/eslint-config/commit/820286bfd93b2bfd2e9043f7ff830c0112d25bae))
+
 ## [1.0.1](https://github.com/Fdawgs/eslint-config/compare/v1.0.0...v1.0.1) (2025-06-25)
 
 
