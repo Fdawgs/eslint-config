@@ -8,7 +8,7 @@
 	],
 	"main": "src/index.mjs",
 	"type": "module",
-	"types": "types/index.d.ts",
+	"types": "types/index.d.mts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Fdawgs/eslint-config.git"
