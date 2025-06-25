@@ -40,9 +40,30 @@ const config = [
 					requireReturnForObjectLiteral: false,
 				},
 			],
+			camelcase: [
+				"error",
+				{ properties: "never", ignoreDestructuring: false },
+			],
+			"func-names": "warn",
 			"func-style": ["error", "declaration"],
+			"new-cap": [
+				"error",
+				{
+					capIsNew: false,
+					capIsNewExceptions: [
+						"Immutable.Map",
+						"Immutable.Set",
+						"Immutable.List",
+					],
+				},
+			],
+			"no-array-constructor": "error",
+			"no-bitwise": "error",
 			"no-console": "warn",
 			"no-label-var": "error",
+			"no-multi-assign": "error",
+			"no-nested-ternary": "error",
+			"no-object-constructor": "error",
 			"no-param-reassign": [
 				"error",
 				{
@@ -57,6 +78,7 @@ const config = [
 					],
 				},
 			],
+			"no-plusplus": "error",
 			"no-proto": "error",
 			"no-return-assign": ["error", "always"],
 			"no-script-url": "error",
@@ -65,6 +87,13 @@ const config = [
 			"no-shadow": "error",
 			"no-throw-literal": "error",
 			"no-undef-init": "error",
+			"no-underscore-dangle": [
+				"error",
+				{
+					enforceInMethodNames: true,
+				},
+			],
+			"no-unneeded-ternary": ["error", { defaultAssignment: false }],
 			"no-unused-expressions": [
 				"error",
 				{
@@ -87,6 +116,7 @@ const config = [
 					avoidQuotes: true,
 				},
 			],
+			"one-var": ["error", "never"],
 			"prefer-arrow-callback": [
 				"error",
 				{
@@ -102,6 +132,8 @@ const config = [
 				},
 			],
 			"prefer-destructuring": ["error", { object: true, array: false }],
+			"prefer-exponentiation-operator": "error",
+			"prefer-object-spread": "error",
 			"prefer-promise-reject-errors": [
 				"error",
 				{ allowEmptyReject: true },
