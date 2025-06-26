@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.3](https://github.com/Fdawgs/eslint-config/compare/v1.0.2...v1.0.3) (2025-06-26)
+
+
+### Bug fixes
+
+* **index:** remove `prefer-arrow-callback` rule ([#13](https://github.com/Fdawgs/eslint-config/issues/13)) ([8aa03f9](https://github.com/Fdawgs/eslint-config/commit/8aa03f914774983eb7b65e7d0684e06ea7b2336b))
+
+
+### Miscellaneous
+
+* **.vscode/settings:** use flat config ([#12](https://github.com/Fdawgs/eslint-config/issues/12)) ([96dd1d1](https://github.com/Fdawgs/eslint-config/commit/96dd1d134beba71aba5440cda43991b61ec128e2))
+* **licensee:** sort values ([#10](https://github.com/Fdawgs/eslint-config/issues/10)) ([05ba502](https://github.com/Fdawgs/eslint-config/commit/05ba50211bacc968969e455fd6267b9c76798301))
+
 ## [1.0.2](https://github.com/Fdawgs/eslint-config/compare/v1.0.1...v1.0.2) (2025-06-25)
 
 
