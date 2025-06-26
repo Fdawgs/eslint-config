@@ -117,13 +117,6 @@ const config = [
 				},
 			],
 			"one-var": ["error", "never"],
-			"prefer-arrow-callback": [
-				"error",
-				{
-					allowNamedFunctions: false,
-					allowUnboundThis: true,
-				},
-			],
 			"prefer-const": [
 				"error",
 				{
