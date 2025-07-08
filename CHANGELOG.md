@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/Fdawgs/eslint-config/compare/v1.0.3...v1.0.4) (2025-07-08)
+
+
+### Dependencies
+
+* **deps:** add missing globals dependency ([#14](https://github.com/Fdawgs/eslint-config/issues/14)) ([cc98416](https://github.com/Fdawgs/eslint-config/commit/cc984166f9e61f0c53d86d25766e2091be3e0df0))
+
 ## [1.0.3](https://github.com/Fdawgs/eslint-config/compare/v1.0.2...v1.0.3) (2025-06-26)
 
 
