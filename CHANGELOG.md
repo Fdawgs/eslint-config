@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.5](https://github.com/Fdawgs/eslint-config/compare/v1.0.4...v1.0.5) (2025-07-23)
+
+
+### Continuous integration
+
+* **cd:** only scope package if it is not already ([#16](https://github.com/Fdawgs/eslint-config/issues/16)) ([c667b23](https://github.com/Fdawgs/eslint-config/commit/c667b231dfe0b0b80c0cd4f461d23f4193d484bb))
+
+
+### Dependencies
+
+* **deps:** bump dependencies ([#18](https://github.com/Fdawgs/eslint-config/issues/18)) ([59adbc6](https://github.com/Fdawgs/eslint-config/commit/59adbc64287ac6ac31c94eaafed64efb461cf5b2))
+
 ## [1.0.4](https://github.com/Fdawgs/eslint-config/compare/v1.0.3...v1.0.4) (2025-07-08)
 
 
