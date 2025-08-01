@@ -46,7 +46,7 @@
 		"husky": "^9.1.7",
 		"licensee": "^11.1.1",
 		"prettier": "^3.6.2",
-		"typescript": "~5.8.3"
+		"typescript": "~5.9.2"
 	},
 	"peerDependencies": {
 		"eslint": "^9.0.0"
