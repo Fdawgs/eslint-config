@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.6](https://github.com/Fdawgs/eslint-config/compare/v1.0.5...v1.0.6) (2025-08-05)
+
+
+### Continuous integration
+
+* **link-check:** retry on 429 response ([#21](https://github.com/Fdawgs/eslint-config/issues/21)) ([4f67b30](https://github.com/Fdawgs/eslint-config/commit/4f67b3083135c20a635cda7ee354a2822dea6bb1))
+
+
+### Dependencies
+
+* **deps-dev:** bump typescript from 5.8.3 to 5.9.2 ([#20](https://github.com/Fdawgs/eslint-config/issues/20)) ([b6e43b5](https://github.com/Fdawgs/eslint-config/commit/b6e43b5828509a0deecd3c15f4facfc75081d61e))
+* **deps:** bump eslint-plugin-jsdoc in the eslint group ([#19](https://github.com/Fdawgs/eslint-config/issues/19)) ([f864ef0](https://github.com/Fdawgs/eslint-config/commit/f864ef091992ef0db45c51193129d4003f06717e))
+
 ## [1.0.5](https://github.com/Fdawgs/eslint-config/compare/v1.0.4...v1.0.5) (2025-07-23)
 
 
