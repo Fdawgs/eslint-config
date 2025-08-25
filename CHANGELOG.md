@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.0.6](https://github.com/Fdawgs/eslint-config/compare/v1.0.5...v1.0.6) (2025-08-25)
+
+
+### Bug fixes
+
+* **index:** require `v` regex flag over `u` ([#24](https://github.com/Fdawgs/eslint-config/issues/24)) ([681533d](https://github.com/Fdawgs/eslint-config/commit/681533d9908427b0d2c4201a514e11e9db8d7c4c))
+
+
+### Continuous integration
+
+* **cd:** use oicd for publishing to npm ([#23](https://github.com/Fdawgs/eslint-config/issues/23)) ([7c872cc](https://github.com/Fdawgs/eslint-config/commit/7c872cc8ac2602b7cd877a73114b308550e66704))
+* **deps:** bump actions/checkout from 4 to 5 ([#27](https://github.com/Fdawgs/eslint-config/issues/27)) ([88115dc](https://github.com/Fdawgs/eslint-config/commit/88115dc87a3ef8bfe61b80369ef4a4fa75115dee))
+* **deps:** bump actions/dependency-review-action from 4.7.1 to 4.7.2 ([#25](https://github.com/Fdawgs/eslint-config/issues/25)) ([4d4096b](https://github.com/Fdawgs/eslint-config/commit/4d4096bd748a94f0f95d4854ad0f9e0b4988cf44))
+* **deps:** bump googleapis/release-please-action from 4.2.0 to 4.3.0 ([#26](https://github.com/Fdawgs/eslint-config/issues/26)) ([981a175](https://github.com/Fdawgs/eslint-config/commit/981a1754efbafd02afe885b2d283b211c6edd283))
+* **link-check:** retry on 429 response ([#21](https://github.com/Fdawgs/eslint-config/issues/21)) ([4f67b30](https://github.com/Fdawgs/eslint-config/commit/4f67b3083135c20a635cda7ee354a2822dea6bb1))
+
+
+### Dependencies
+
+* **deps-dev:** bump typescript from 5.8.3 to 5.9.2 ([#20](https://github.com/Fdawgs/eslint-config/issues/20)) ([b6e43b5](https://github.com/Fdawgs/eslint-config/commit/b6e43b5828509a0deecd3c15f4facfc75081d61e))
+* **deps:** bump eslint-plugin-jsdoc in the eslint group ([#19](https://github.com/Fdawgs/eslint-config/issues/19)) ([f864ef0](https://github.com/Fdawgs/eslint-config/commit/f864ef091992ef0db45c51193129d4003f06717e))
+* **deps:** bump eslint-plugin-jsdoc in the eslint group ([#28](https://github.com/Fdawgs/eslint-config/issues/28)) ([3c38621](https://github.com/Fdawgs/eslint-config/commit/3c386212e03b2356aaf6affbc92e44f02a223182))
+
 ## [1.0.5](https://github.com/Fdawgs/eslint-config/compare/v1.0.4...v1.0.5) (2025-07-23)
 
 
