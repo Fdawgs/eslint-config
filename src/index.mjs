@@ -26,7 +26,7 @@ const config = [
 	{
 		files: ["**/*.js", "**/*.jsx"],
 		languageOptions: {
-			ecmaVersion: 2023,
+			ecmaVersion: 2024,
 			sourceType: "commonjs",
 			globals: { ...globals.node },
 		},
