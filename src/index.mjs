@@ -8,7 +8,7 @@ import prettier from "eslint-config-prettier/flat";
 // @ts-ignore: no types exist for this plugin
 import comments from "@eslint-community/eslint-plugin-eslint-comments/configs";
 import imp from "eslint-plugin-import";
-import jsdoc from "eslint-plugin-jsdoc";
+import { jsdoc } from "eslint-plugin-jsdoc";
 import n from "eslint-plugin-n";
 // @ts-ignore: no types exist for this plugin
 import promise from "eslint-plugin-promise";
@@ -19,7 +19,9 @@ import security from "eslint-plugin-security";
 const config = [
 	eslint.configs.recommended,
 	comments.recommended,
-	jsdoc.configs["flat/recommended"],
+	jsdoc({
+		config: "flat/recommended",
+	}),
 	promise.configs["flat/recommended"],
 	regexp.configs["flat/recommended"],
 	security.configs.recommended,
