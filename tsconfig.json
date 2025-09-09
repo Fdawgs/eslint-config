@@ -10,7 +10,7 @@
 		"outDir": "types",
 		"resolveJsonModule": true,
 		"strict": true,
-		"target": "ES2023"
+		"target": "ES2024"
 	},
 	"include": ["src/index.mjs"]
 }
