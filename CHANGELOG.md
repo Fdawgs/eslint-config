@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.0.7](https://github.com/Fdawgs/eslint-config/compare/v1.0.6...v1.0.7) (2025-09-10)
+
+
+### Bug fixes
+
+* **index:** correct ecma target version ([#30](https://github.com/Fdawgs/eslint-config/issues/30)) ([079b2cd](https://github.com/Fdawgs/eslint-config/commit/079b2cd963c11310a5951cbdc3b9b1a361838549))
+
+
+### Continuous integration
+
+* **ci:** add typecheck job ([#34](https://github.com/Fdawgs/eslint-config/issues/34)) ([e1f6a27](https://github.com/Fdawgs/eslint-config/commit/e1f6a27fdc61b4eecabd402e0f989a139651b0b3))
+* **deps:** bump actions/dependency-review-action from 4.7.2 to 4.7.3 ([#29](https://github.com/Fdawgs/eslint-config/issues/29)) ([f1f399e](https://github.com/Fdawgs/eslint-config/commit/f1f399ef1eede76fa4d8b3fd104f79fcf7b27dad))
+
+
+### Dependencies
+
+* **dependabot:** add cooldowns ([#35](https://github.com/Fdawgs/eslint-config/issues/35)) ([b465f4e](https://github.com/Fdawgs/eslint-config/commit/b465f4e9ce0cd2b7c5b74fe3162839ba9c203436))
+* **dependabot:** remove cooldowns for github-actions ([#36](https://github.com/Fdawgs/eslint-config/issues/36)) ([818bce6](https://github.com/Fdawgs/eslint-config/commit/818bce6bfd5e21713d1875f3271fa9bd1731f5db))
+* **deps:** bump dependencies ([#32](https://github.com/Fdawgs/eslint-config/issues/32)) ([75788c8](https://github.com/Fdawgs/eslint-config/commit/75788c8aeb4601069233763512dc9505d2772191))
+* **tsconfig:** add typescript declaration map ([#33](https://github.com/Fdawgs/eslint-config/issues/33)) ([00140e3](https://github.com/Fdawgs/eslint-config/commit/00140e35481476ec42db868b28e9e1c3ea2a6013))
+
 ## [1.0.6](https://github.com/Fdawgs/eslint-config/compare/v1.0.5...v1.0.6) (2025-08-25)
 
 
