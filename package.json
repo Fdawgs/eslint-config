@@ -24,7 +24,7 @@
 		"node": ">=20"
 	},
 	"scripts": {
-		"build": "tsc",
+		"build": "tsc -p tsconfig.build.json",
 		"lint:fix": "npm run lint -- --fix",
 		"lint:licenses": "licensee --errors-only --production",
 		"lint:prettier:fix": "prettier . -w -u",

@@ -3,14 +3,12 @@
 	"compilerOptions": {
 		"allowJs": true,
 		"checkJs": true,
-		"declaration": true,
-		"emitDeclarationOnly": true,
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
-		"outDir": "types",
+		"noEmit": true,
 		"resolveJsonModule": true,
 		"strict": true,
 		"target": "ES2024"
 	},
-	"include": ["src/index.mjs"]
+	"exclude": ["dist", "node_modules"]
 }
