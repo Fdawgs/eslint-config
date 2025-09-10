@@ -4,6 +4,11 @@ updates:
       commit-message:
           include: scope
           prefix: ci
+      cooldown:
+          semver-major-days: 60
+          semver-minor-days: 21
+          semver-patch-days: 7
+          include: ["*"]
       directory: /
       open-pull-requests-limit: 20
       schedule:
@@ -13,6 +18,11 @@ updates:
       commit-message:
           include: scope
           prefix: build
+      cooldown:
+          semver-major-days: 60
+          semver-minor-days: 21
+          semver-patch-days: 7
+          include: ["*"]
       directory: /
       groups:
           commitlint:
