@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.8](https://github.com/Fdawgs/eslint-config/compare/v1.0.7...v1.0.8) (2025-09-16)
+
+
+### Bug fixes
+
+* **index:** import jsdoc plugin config, not factory ([#41](https://github.com/Fdawgs/eslint-config/issues/41)) ([b1ef104](https://github.com/Fdawgs/eslint-config/commit/b1ef10479f7ccb3ed6e1e85342fb0ceb0bb97197))
+
+
+### Miscellaneous
+
+* add `.nvmrc` file ([#40](https://github.com/Fdawgs/eslint-config/issues/40)) ([ef14f88](https://github.com/Fdawgs/eslint-config/commit/ef14f8851f1f006743a12dab92d3eee009306990))
+* **dependabot:** sort cooldown keys ([#38](https://github.com/Fdawgs/eslint-config/issues/38)) ([30ed70b](https://github.com/Fdawgs/eslint-config/commit/30ed70be8d73bf2e4f8902a555a5f8766b39c042))
+
 ## [1.0.7](https://github.com/Fdawgs/eslint-config/compare/v1.0.6...v1.0.7) (2025-09-10)
 
 
