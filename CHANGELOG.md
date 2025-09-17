@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.9](https://github.com/Fdawgs/eslint-config/compare/v1.0.8...v1.0.9) (2025-09-17)
+
+
+### Miscellaneous
+
+* **.devcontainer:** add devcontainer ([#42](https://github.com/Fdawgs/eslint-config/issues/42)) ([cf5e7c3](https://github.com/Fdawgs/eslint-config/commit/cf5e7c3cedcf8779f0475654000dfeef1e35de20))
+
 ## [1.0.8](https://github.com/Fdawgs/eslint-config/compare/v1.0.7...v1.0.8) (2025-09-16)
 
 
