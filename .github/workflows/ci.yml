@@ -29,9 +29,7 @@ permissions:
 jobs:
     dependency-review:
         name: Dependency Review
-        if: >
-            github.event.pull_request.draft == false &&
-            github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request'
         runs-on: ubuntu-latest
         permissions:
             contents: read
@@ -46,7 +44,6 @@ jobs:
 
     lint:
         name: Lint Code
-        if: github.event.pull_request.draft == false
         runs-on: ubuntu-latest
         permissions:
             contents: read
@@ -82,7 +79,6 @@ jobs:
 
     typecheck:
         name: Typecheck Code
-        if: github.event.pull_request.draft == false
         runs-on: ubuntu-latest
         permissions:
             contents: read
@@ -107,8 +103,8 @@ jobs:
     commit-lint:
         name: Lint Commit Messages
         if: >
-            github.event.pull_request.draft == false &&
-            github.actor != 'dependabot[bot]'
+          github.event_name == 'push' ||
+          (github.event_name == 'pull_request' && github.event.pull_request.user.login != 'dependabot[bot]')
         runs-on: ubuntu-latest
         permissions:
             contents: read
@@ -129,7 +125,6 @@ jobs:
         needs: [dependency-review, lint, typecheck]
         if: >
             github.event_name == 'pull_request' &&
-            github.event.pull_request.draft == false &&
             github.event.pull_request.head.repo.full_name == github.repository &&
             github.event.pull_request.user.login == 'dependabot[bot]'
         runs-on: ubuntu-latest
