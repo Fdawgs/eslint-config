@@ -159,7 +159,7 @@ const config = [
 			"promise/prefer-await-to-callbacks": "warn",
 			"promise/prefer-await-to-then": "warn",
 			// RegExp rules
-			"regexp/require-unicode-sets-regexp": "error",
+			"regexp/require-unicode-regexp": "error",
 			// Security rules
 			"security/detect-object-injection": "off",
 		},
