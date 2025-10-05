@@ -16,15 +16,18 @@
 				"eamodio.gitlens",
 				"esbenp.prettier-vscode",
 				"redhat.vscode-yaml"
-			]
+			],
+			"settings": {
+				"extensions.ignoreRecommendations": true
+			}
 		}
 	},
-	// Features to add to the dev container. More info: https://containers.dev/features.
+	// Features to add to the dev container. More info: https://containers.dev/features
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
-	// Use 'postCreateCommand' to run commands after the container is created.
+	// Use 'postCreateCommand' to run commands after the container is created
 	"postCreateCommand": "npm i",
 	"remoteUser": "node"
 }
