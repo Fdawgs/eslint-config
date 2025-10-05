@@ -3,6 +3,12 @@
 	"editor.formatOnSave": true,
 	"eslint.useFlatConfig": true,
 	"files.eol": "\n",
+	"gitlens.graph.statusBar.enabled": false,
+	"gitlens.hovers.avatars": false,
+	"gitlens.mode.statusBar.enabled": false,
+	"gitlens.showWhatsNewAfterUpgrades": false,
+	"gitlens.statusBar.enabled": false,
+	"gitlens.statusBar.pullRequests.enabled": false,
 	"gitlens.telemetry.enabled": false,
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
