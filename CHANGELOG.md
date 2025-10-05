@@ -1,5 +1,34 @@
 # Changelog
 
+## [1.0.9](https://github.com/Fdawgs/eslint-config/compare/v1.0.8...v1.0.9) (2025-10-05)
+
+
+### Bug fixes
+
+* **index:** revert [#24](https://github.com/Fdawgs/eslint-config/issues/24) ([#52](https://github.com/Fdawgs/eslint-config/issues/52)) ([74d276d](https://github.com/Fdawgs/eslint-config/commit/74d276dd7a637d49584967a5592c3df62cd0d548))
+
+
+### Continuous integration
+
+* **cd:** protect against cache poisoning ([#47](https://github.com/Fdawgs/eslint-config/issues/47)) ([422da57](https://github.com/Fdawgs/eslint-config/commit/422da570e11aa8c16a7e9b29e2ab6514e1444015))
+* **ci:** check dependabot prs originate from repo ([#45](https://github.com/Fdawgs/eslint-config/issues/45)) ([525d460](https://github.com/Fdawgs/eslint-config/commit/525d4608c55d21c8f4d5f205b953c2a18e79f5ac))
+* **ci:** move typecheck to lint job ([#48](https://github.com/Fdawgs/eslint-config/issues/48)) ([e62ad57](https://github.com/Fdawgs/eslint-config/commit/e62ad578ddfd9b6132abc09428b5e896045ec67a))
+* **deps:** bump actions/dependency-review-action from 4.7.3 to 4.8.0 ([#49](https://github.com/Fdawgs/eslint-config/issues/49)) ([73ddc00](https://github.com/Fdawgs/eslint-config/commit/73ddc004c519746b2b68115a24b0558eb1b190dd))
+* tidy conditional checks ([#46](https://github.com/Fdawgs/eslint-config/issues/46)) ([19d8836](https://github.com/Fdawgs/eslint-config/commit/19d88367a9cc4341acd20e05e30769e99b5a649f))
+
+
+### Dependencies
+
+* **deps-dev:** bump the commitlint group with 2 updates ([#50](https://github.com/Fdawgs/eslint-config/issues/50)) ([784fe32](https://github.com/Fdawgs/eslint-config/commit/784fe32f12f7f4a15d037ca2005bb2226be84b66))
+* **deps:** bump eslint-plugin-jsdoc in the eslint group ([#51](https://github.com/Fdawgs/eslint-config/issues/51)) ([8fc46cd](https://github.com/Fdawgs/eslint-config/commit/8fc46cdbcc93225d6e93b7d4b1774b0b5c0f3fcc))
+
+
+### Miscellaneous
+
+* **.devcontainer:** add devcontainer ([#42](https://github.com/Fdawgs/eslint-config/issues/42)) ([cf5e7c3](https://github.com/Fdawgs/eslint-config/commit/cf5e7c3cedcf8779f0475654000dfeef1e35de20))
+* **.npmrc:** ignore scripts ([#44](https://github.com/Fdawgs/eslint-config/issues/44)) ([2e6f7c1](https://github.com/Fdawgs/eslint-config/commit/2e6f7c1caf459569a469fdb1576841fbd3bb02f3))
+* **devcontainer:** update settings ([#53](https://github.com/Fdawgs/eslint-config/issues/53)) ([331b53f](https://github.com/Fdawgs/eslint-config/commit/331b53f9706bca838018725868e956a7f8225816))
+
 ## [1.0.8](https://github.com/Fdawgs/eslint-config/compare/v1.0.7...v1.0.8) (2025-09-16)
 
 
