@@ -28,5 +28,6 @@
 		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
 	// Use 'postCreateCommand' to run commands after the container is created
-	"postCreateCommand": "npm i"
+	"postCreateCommand": "npm i",
+	"remoteUser": "node"
 }
