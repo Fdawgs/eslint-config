@@ -25,13 +25,15 @@
 	},
 	"scripts": {
 		"build": "tsc -p tsconfig.build.json",
-		"lint:fix": "npm run lint -- --fix",
+		"lint:eslint:fix": "npm run lint:eslint -- --fix",
+		"lint:eslint": "eslint . --cache",
+		"lint:fix": "npm run lint:eslint:fix && npm run lint:prettier:fix",
 		"lint:licenses": "licensee --errors-only --production",
 		"lint:prettier:fix": "prettier . -w -u",
 		"lint:prettier": "prettier . -c -u",
-		"lint": "eslint . --cache",
+		"lint": "npm run lint:eslint && npm run lint:prettier && npm run lint:licenses",
 		"prepare": "husky",
-		"test": "npm run lint:prettier",
+		"test": "npm run lint",
 		"typecheck": "tsc"
 	},
 	"commitlint": {
