@@ -18,7 +18,14 @@
 				"redhat.vscode-yaml"
 			],
 			"settings": {
-				"extensions.ignoreRecommendations": true
+				"extensions.ignoreRecommendations": true,
+				"gitlens.graph.statusBar.enabled": false,
+				"gitlens.hovers.avatars": false,
+				"gitlens.mode.statusBar.enabled": false,
+				"gitlens.showWhatsNewAfterUpgrades": false,
+				"gitlens.statusBar.enabled": false,
+				"gitlens.statusBar.pullRequests.enabled": false,
+				"gitlens.telemetry.enabled": false
 			}
 		}
 	},
