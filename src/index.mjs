@@ -33,7 +33,17 @@ const config = [
 		plugins: { import: imp, jsdoc, n, regexp },
 		rules: {
 			// Standard rules
+			// Possible problems
 			"array-callback-return": ["error", { allowImplicit: true }],
+			"no-constructor-return": "error",
+			"no-promise-executor-return": "error",
+			"no-template-curly-in-string": "error",
+			"no-use-before-define": [
+				"error",
+				{ functions: true, classes: true, variables: true },
+			],
+			"no-useless-assignment": "error",
+			// Suggestions
 			"arrow-body-style": [
 				"error",
 				"as-needed",
@@ -73,7 +83,6 @@ const config = [
 			"no-bitwise": "error",
 			"no-caller": "error",
 			"no-console": "warn",
-			"no-constructor-return": "error",
 			"no-else-return": ["error", { allowElseIf: false }],
 			"no-empty-function": [
 				"error",
@@ -137,10 +146,6 @@ const config = [
 					allowTernary: false,
 					allowTaggedTemplates: false,
 				},
-			],
-			"no-use-before-define": [
-				"error",
-				{ functions: true, classes: true, variables: true },
 			],
 			"no-useless-computed-key": "error",
 			"no-useless-concat": "error",
