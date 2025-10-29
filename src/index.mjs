@@ -24,7 +24,7 @@ const config = [
 	regexp.configs["flat/recommended"],
 	security.configs.recommended,
 	{
-		files: ["**/*.js", "**/*.jsx"],
+		files: ["**/*.js"],
 		languageOptions: {
 			ecmaVersion: 2024,
 			sourceType: "commonjs",
@@ -35,6 +35,7 @@ const config = [
 			// Standard rules
 			// Possible problems
 			"array-callback-return": ["error", { allowImplicit: true }],
+			"no-await-in-loop": "warn",
 			"no-constructor-return": "error",
 			"no-promise-executor-return": "error",
 			"no-template-curly-in-string": "error",
@@ -43,6 +44,7 @@ const config = [
 				{ functions: true, classes: true, variables: true },
 			],
 			"no-useless-assignment": "error",
+			"require-atomic-updates": "error",
 			// Suggestions
 			"arrow-body-style": [
 				"error",
@@ -51,7 +53,6 @@ const config = [
 					requireReturnForObjectLiteral: false,
 				},
 			],
-			"block-scoped-var": "error",
 			camelcase: [
 				"error",
 				{ properties: "never", ignoreDestructuring: false },
@@ -100,6 +101,7 @@ const config = [
 			"no-label-var": "error",
 			"no-labels": "error",
 			"no-lone-blocks": "error",
+			"no-lonely-if": "error",
 			"no-loop-func": "error",
 			"no-multi-assign": "error",
 			"no-multi-str": "error",
@@ -126,7 +128,6 @@ const config = [
 			"no-plusplus": "error",
 			"no-proto": "error",
 			"no-return-assign": ["error", "always"],
-			"no-script-url": "error",
 			"no-self-compare": "error",
 			"no-sequences": "error",
 			"no-shadow": "error",
@@ -139,6 +140,7 @@ const config = [
 				},
 			],
 			"no-unneeded-ternary": ["error", { defaultAssignment: false }],
+			"no-unreachable-loop": "error",
 			"no-unused-expressions": [
 				"error",
 				{
@@ -149,6 +151,8 @@ const config = [
 			],
 			"no-useless-computed-key": "error",
 			"no-useless-concat": "error",
+			"no-useless-constructor": "error",
+			"no-useless-rename": "error",
 			"no-useless-return": "error",
 			"no-var": "error",
 			"no-void": "error",
@@ -178,8 +182,8 @@ const config = [
 			"prefer-rest-params": "error",
 			"prefer-spread": "error",
 			radix: "error",
+			"symbol-description": "error",
 			strict: ["error", "global"],
-			"vars-on-top": "error",
 			yoda: "error",
 			// Comments rules
 			"@eslint-community/eslint-comments/disable-enable-pair": "off",
