@@ -9,7 +9,7 @@ const gitignorePath = fileURLToPath(new URL(".gitignore", import.meta.url));
 
 const config = defineConfig([
 	// Include ignore file to prevent linting of files in .gitignore
-	includeIgnoreFile(gitignorePath),
+	includeIgnoreFile(gitignorePath, ".gitignore"),
 	{
 		files: ["**/*.js", "**/*.jsx"],
 		extends: [fdawgs],
