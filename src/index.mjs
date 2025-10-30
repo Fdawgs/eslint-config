@@ -24,7 +24,7 @@ const config = [
 	regexp.configs["flat/recommended"],
 	security.configs.recommended,
 	{
-		files: ["**/*.js", "**/*.jsx"],
+		files: ["**/*.js"],
 		languageOptions: {
 			ecmaVersion: 2024,
 			sourceType: "commonjs",
@@ -33,6 +33,19 @@ const config = [
 		plugins: { import: imp, jsdoc, n, regexp },
 		rules: {
 			// Standard rules
+			// Possible problems
+			"array-callback-return": ["error", { allowImplicit: true }],
+			"no-await-in-loop": "warn",
+			"no-constructor-return": "error",
+			"no-promise-executor-return": "error",
+			"no-template-curly-in-string": "error",
+			"no-use-before-define": [
+				"error",
+				{ functions: true, classes: true, variables: true },
+			],
+			"no-useless-assignment": "error",
+			"require-atomic-updates": "error",
+			// Suggestions
 			"arrow-body-style": [
 				"error",
 				"as-needed",
@@ -44,8 +57,18 @@ const config = [
 				"error",
 				{ properties: "never", ignoreDestructuring: false },
 			],
+			"class-methods-use-this": "error",
+			"consistent-return": "error",
+			curly: ["error", "multi-line"],
+			"default-case-last": "error",
+			"default-param-last": "error",
+			"dot-notation": "error",
+			eqeqeq: ["error", "always", { null: "ignore" }],
 			"func-names": "warn",
 			"func-style": ["error", "declaration"],
+			"grouped-accessor-pairs": "error",
+			"guard-for-in": "error",
+			"max-classes-per-file": ["error", 1],
 			"new-cap": [
 				"error",
 				{
@@ -59,11 +82,34 @@ const config = [
 			],
 			"no-array-constructor": "error",
 			"no-bitwise": "error",
+			"no-caller": "error",
 			"no-console": "warn",
+			"no-else-return": ["error", { allowElseIf: false }],
+			"no-empty-function": [
+				"error",
+				{
+					allow: ["arrowFunctions", "functions", "methods"],
+				},
+			],
+			"no-eval": "error",
+			"no-extend-native": "error",
+			"no-extra-bind": "error",
+			"no-extra-label": "error",
+			"no-floating-decimal": "error",
+			"no-implied-eval": "error",
+			"no-iterator": "error",
 			"no-label-var": "error",
+			"no-labels": "error",
+			"no-lone-blocks": "error",
+			"no-loop-func": "error",
 			"no-multi-assign": "error",
+			"no-multi-str": "error",
 			"no-nested-ternary": "error",
+			"no-new": "error",
+			"no-new-func": "error",
+			"no-new-wrappers": "error",
 			"no-object-constructor": "error",
+			"no-octal-escape": "error",
 			"no-param-reassign": [
 				"error",
 				{
@@ -81,7 +127,6 @@ const config = [
 			"no-plusplus": "error",
 			"no-proto": "error",
 			"no-return-assign": ["error", "always"],
-			"no-script-url": "error",
 			"no-self-compare": "error",
 			"no-sequences": "error",
 			"no-shadow": "error",
@@ -94,6 +139,7 @@ const config = [
 				},
 			],
 			"no-unneeded-ternary": ["error", { defaultAssignment: false }],
+			"no-unreachable-loop": "error",
 			"no-unused-expressions": [
 				"error",
 				{
@@ -102,12 +148,13 @@ const config = [
 					allowTaggedTemplates: false,
 				},
 			],
-			"no-use-before-define": [
-				"error",
-				{ functions: true, classes: true, variables: true },
-			],
 			"no-useless-computed-key": "error",
+			"no-useless-concat": "error",
+			"no-useless-constructor": "error",
+			"no-useless-rename": "error",
+			"no-useless-return": "error",
 			"no-var": "error",
+			"no-void": "error",
 			"object-shorthand": [
 				"error",
 				"always",
@@ -134,8 +181,9 @@ const config = [
 			"prefer-rest-params": "error",
 			"prefer-spread": "error",
 			radix: "error",
+			"symbol-description": "error",
 			strict: ["error", "global"],
-			"vars-on-top": "error",
+			yoda: "error",
 			// Comments rules
 			"@eslint-community/eslint-comments/disable-enable-pair": "off",
 			"@eslint-community/eslint-comments/no-unused-disable": "error",
