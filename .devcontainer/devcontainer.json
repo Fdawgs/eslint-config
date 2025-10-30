@@ -24,8 +24,7 @@
 				"gitlens.mode.statusBar.enabled": false,
 				"gitlens.showWhatsNewAfterUpgrades": false,
 				"gitlens.statusBar.enabled": false,
-				"gitlens.statusBar.pullRequests.enabled": false,
-				"gitlens.telemetry.enabled": false
+				"gitlens.statusBar.pullRequests.enabled": false
 			}
 		}
 	},
