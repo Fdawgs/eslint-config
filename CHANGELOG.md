@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.0.0](https://github.com/Fdawgs/eslint-config/compare/v1.0.9...v2.0.0) (2025-10-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **index:** Dropped support for `.jsx` files. Not targeting frontend.
+
+### Bug fixes
+
+* **index:** enable more rules, drop support for `.jsx` ([#58](https://github.com/Fdawgs/eslint-config/issues/58)) ([906cf52](https://github.com/Fdawgs/eslint-config/commit/906cf5244e9bd6d9af00829ea346d1570e49c528))
+
+
+### Continuous integration
+
+* use `.nvmrc` for node-version ([#57](https://github.com/Fdawgs/eslint-config/issues/57)) ([7d81a76](https://github.com/Fdawgs/eslint-config/commit/7d81a7625f8d4e543c4294dc2f81980287846995))
+
+
+### Miscellaneous
+
+* **devcontainer:** add `onCreateCommand` for chown; only lint in husky ([#54](https://github.com/Fdawgs/eslint-config/issues/54)) ([3f0be1e](https://github.com/Fdawgs/eslint-config/commit/3f0be1e45cc58e47c0d3e7bca0d35b2ae74e32df))
+* **devcontainer:** move gitlens settings to devcontainer ([#56](https://github.com/Fdawgs/eslint-config/issues/56)) ([d0559b4](https://github.com/Fdawgs/eslint-config/commit/d0559b4102bf5ac0e2f06211b3608837e223927c))
+
 ## [1.0.9](https://github.com/Fdawgs/eslint-config/compare/v1.0.8...v1.0.9) (2025-10-05)
 
 
