@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/Fdawgs/eslint-config/compare/v2.0.0...v2.0.1) (2025-10-30)
+
+
+### Miscellaneous
+
+* rename lint scripts to reflect use ([#60](https://github.com/Fdawgs/eslint-config/issues/60)) ([d314a27](https://github.com/Fdawgs/eslint-config/commit/d314a2725b06f1edf33066a312b4d547ae9dd518))
+
 ## [2.0.0](https://github.com/Fdawgs/eslint-config/compare/v1.0.9...v2.0.0) (2025-10-30)
 
 
