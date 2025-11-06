@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.1](https://github.com/Fdawgs/eslint-config/compare/v2.0.0...v2.0.1) (2025-11-06)
+
+
+### Continuous integration
+
+* **deps:** bump actions/dependency-review-action from 4.8.0 to 4.8.1 ([#64](https://github.com/Fdawgs/eslint-config/issues/64)) ([5c44600](https://github.com/Fdawgs/eslint-config/commit/5c44600b24e8fcdf1b449a44dc94bad8d5e0cf5c))
+* **deps:** bump actions/setup-node from 5 to 6 ([#62](https://github.com/Fdawgs/eslint-config/issues/62)) ([87e329c](https://github.com/Fdawgs/eslint-config/commit/87e329cb0d327edef5d9984993d8009d4c2aa2c3))
+* **deps:** bump fastify/github-action-merge-dependabot ([#66](https://github.com/Fdawgs/eslint-config/issues/66)) ([7741192](https://github.com/Fdawgs/eslint-config/commit/774119262e7dc28d7fbb8a75acce9144a10f8d8f))
+* **deps:** bump github/codeql-action from 3 to 4 ([#67](https://github.com/Fdawgs/eslint-config/issues/67)) ([abb21b0](https://github.com/Fdawgs/eslint-config/commit/abb21b0059f133112664fd34c2e84f71419e8c8a))
+* **deps:** bump googleapis/release-please-action from 4.3.0 to 4.4.0 ([#65](https://github.com/Fdawgs/eslint-config/issues/65)) ([8ce82c8](https://github.com/Fdawgs/eslint-config/commit/8ce82c81ef1b76baa83824486e3b7f43b48d333c))
+* **deps:** bump JustinBeckwith/linkinator-action from 1.11.0 to 2.3 ([#63](https://github.com/Fdawgs/eslint-config/issues/63)) ([4c1f558](https://github.com/Fdawgs/eslint-config/commit/4c1f558545793920f28fa580e7a1b0f7011284e2))
+
+
+### Miscellaneous
+
+* rename lint scripts to reflect use ([#60](https://github.com/Fdawgs/eslint-config/issues/60)) ([d314a27](https://github.com/Fdawgs/eslint-config/commit/d314a2725b06f1edf33066a312b4d547ae9dd518))
+
 ## [2.0.0](https://github.com/Fdawgs/eslint-config/compare/v1.0.9...v2.0.0) (2025-10-30)
 
 
