@@ -1,6 +1,6 @@
 {
 	"name": "@fdawgs/eslint-config",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "@fdawgs' shareable flat ESLint config",
 	"keywords": [
 		"eslint",
