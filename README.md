@@ -29,7 +29,7 @@ import fdawgs from "@fdawgs/eslint-config";
 
 const config = defineConfig([
 	{
-		files: ["**/*.js", "**/*.jsx"],
+		files: ["**/*.js"],
 		extends: [fdawgs],
 	},
 ]);
