@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.0.1](https://github.com/Fdawgs/eslint-config/compare/v2.0.0...v2.0.1) (2025-11-19)
+
+
+### Continuous integration
+
+* add lock-threads workflow; fix concurrency groups ([#72](https://github.com/Fdawgs/eslint-config/issues/72)) ([59c50c6](https://github.com/Fdawgs/eslint-config/commit/59c50c62f136cc896cc2eb147791569c6a260fea))
+* **deps:** bump actions/dependency-review-action from 4.8.0 to 4.8.1 ([#64](https://github.com/Fdawgs/eslint-config/issues/64)) ([5c44600](https://github.com/Fdawgs/eslint-config/commit/5c44600b24e8fcdf1b449a44dc94bad8d5e0cf5c))
+* **deps:** bump actions/setup-node from 5 to 6 ([#62](https://github.com/Fdawgs/eslint-config/issues/62)) ([87e329c](https://github.com/Fdawgs/eslint-config/commit/87e329cb0d327edef5d9984993d8009d4c2aa2c3))
+* **deps:** bump fastify/github-action-merge-dependabot ([#66](https://github.com/Fdawgs/eslint-config/issues/66)) ([7741192](https://github.com/Fdawgs/eslint-config/commit/774119262e7dc28d7fbb8a75acce9144a10f8d8f))
+* **deps:** bump github/codeql-action from 3 to 4 ([#67](https://github.com/Fdawgs/eslint-config/issues/67)) ([abb21b0](https://github.com/Fdawgs/eslint-config/commit/abb21b0059f133112664fd34c2e84f71419e8c8a))
+* **deps:** bump googleapis/release-please-action from 4.3.0 to 4.4.0 ([#65](https://github.com/Fdawgs/eslint-config/issues/65)) ([8ce82c8](https://github.com/Fdawgs/eslint-config/commit/8ce82c81ef1b76baa83824486e3b7f43b48d333c))
+* **deps:** bump JustinBeckwith/linkinator-action from 1.11.0 to 2.3 ([#63](https://github.com/Fdawgs/eslint-config/issues/63)) ([4c1f558](https://github.com/Fdawgs/eslint-config/commit/4c1f558545793920f28fa580e7a1b0f7011284e2))
+* **link-check:** use reusable workflow ([#74](https://github.com/Fdawgs/eslint-config/issues/74)) ([971f9fb](https://github.com/Fdawgs/eslint-config/commit/971f9fb093f15f8cc49b18b768c6e8199aafb77d))
+* **lock-threads:** set cron to every day ([#73](https://github.com/Fdawgs/eslint-config/issues/73)) ([3aed2e4](https://github.com/Fdawgs/eslint-config/commit/3aed2e4c23d2c00f497aaeb887cad4422b8d8265))
+
+
+### Dependencies
+
+* **deps-dev:** remove husky ([#75](https://github.com/Fdawgs/eslint-config/issues/75)) ([d669fb0](https://github.com/Fdawgs/eslint-config/commit/d669fb0b2c91429b7f70f46d593b411a0b046cfd))
+* remove type definition map ([#77](https://github.com/Fdawgs/eslint-config/issues/77)) ([91e6b4a](https://github.com/Fdawgs/eslint-config/commit/91e6b4aef1c54c22acb5f7f7a9b3c331071a5562))
+
+
+### Miscellaneous
+
+* **.editorconfig:** add file to enforce consistent coding styles ([#68](https://github.com/Fdawgs/eslint-config/issues/68)) ([03fae1d](https://github.com/Fdawgs/eslint-config/commit/03fae1d4a5788e131c9e83925580d4665ba8a8bc))
+* **.editorconfig:** ignore test fixtures ([#76](https://github.com/Fdawgs/eslint-config/issues/76)) ([55aea9f](https://github.com/Fdawgs/eslint-config/commit/55aea9fae519a99e1e03b892f3bbdcb1f74ac16c))
+* **.editorconfig:** use spaces for yml file indentation ([#71](https://github.com/Fdawgs/eslint-config/issues/71)) ([4546ad5](https://github.com/Fdawgs/eslint-config/commit/4546ad59be3fc7ac0c0824a04220dd8943d466aa))
+* **eslint.config:** stop applying to jsx files ([#70](https://github.com/Fdawgs/eslint-config/issues/70)) ([d034885](https://github.com/Fdawgs/eslint-config/commit/d034885a15405e6000e59fb50cab33ea6839b103))
+* rename lint scripts to reflect use ([#60](https://github.com/Fdawgs/eslint-config/issues/60)) ([d314a27](https://github.com/Fdawgs/eslint-config/commit/d314a2725b06f1edf33066a312b4d547ae9dd518))
+
 ## [2.0.0](https://github.com/Fdawgs/eslint-config/compare/v1.0.9...v2.0.0) (2025-10-30)
 
 
