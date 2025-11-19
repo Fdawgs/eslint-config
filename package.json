@@ -32,7 +32,6 @@
 		"lint:prettier:fix": "prettier . -w -u",
 		"lint:prettier": "prettier . -c -u",
 		"lint": "npm run lint:eslint && npm run lint:prettier && npm run lint:licenses",
-		"prepare": "husky",
 		"test": "npm run lint",
 		"typecheck": "tsc"
 	},
@@ -47,7 +46,6 @@
 		"@eslint/compat": "^1.4.1",
 		"@types/eslint-plugin-security": "^3.0.0",
 		"@types/node": "^24.9.2",
-		"husky": "^9.1.7",
 		"licensee": "^11.1.1",
 		"prettier": "^3.6.2",
 		"typescript": "~5.9.3"
