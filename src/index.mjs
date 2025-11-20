@@ -5,12 +5,12 @@ import eslint from "@eslint/js";
 import prettier from "eslint-config-prettier/flat";
 
 // Plugins
-// @ts-ignore: no types exist for this plugin
+// @ts-expect-error: No types exist for this plugin
 import comments from "@eslint-community/eslint-plugin-eslint-comments/configs";
 import imp from "eslint-plugin-import";
 import jsdoc from "eslint-plugin-jsdoc";
 import n from "eslint-plugin-n";
-// @ts-ignore: no types exist for this plugin
+// @ts-expect-error: No types exist for this plugin
 import promise from "eslint-plugin-promise";
 import regexp from "eslint-plugin-regexp";
 import security from "eslint-plugin-security";
