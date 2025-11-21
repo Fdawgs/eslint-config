@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.0.2](https://github.com/Fdawgs/eslint-config/compare/v2.0.1...v2.0.2) (2025-11-21)
+
+
+### Continuous integration
+
+* **codeql:** check cjs, mjs, and ts files ([#80](https://github.com/Fdawgs/eslint-config/issues/80)) ([0e79d94](https://github.com/Fdawgs/eslint-config/commit/0e79d941c3d684f0dc600b695b9c1285f5a1b3fe))
+
+
+### Miscellaneous
+
+* **.devcontainer:** remove prepare script call ([#82](https://github.com/Fdawgs/eslint-config/issues/82)) ([aed8d60](https://github.com/Fdawgs/eslint-config/commit/aed8d60ad8b6f90511554a5caa76e6927037c7fa))
+* **index:** expect error for missing types, don't ignore ([#81](https://github.com/Fdawgs/eslint-config/issues/81)) ([cc2aee9](https://github.com/Fdawgs/eslint-config/commit/cc2aee98fed73e1e49b494d24f6a1ac2e3763ee5))
+* tidy dotfiles, remove redundant deps ([#78](https://github.com/Fdawgs/eslint-config/issues/78)) ([4698d63](https://github.com/Fdawgs/eslint-config/commit/4698d6316c80a9f1ab1655ca67ebd846fb5b85c6))
+
 ## [2.0.1](https://github.com/Fdawgs/eslint-config/compare/v2.0.0...v2.0.1) (2025-11-19)
 
 
