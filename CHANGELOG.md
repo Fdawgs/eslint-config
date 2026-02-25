@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.0.2](https://github.com/Fdawgs/eslint-config/compare/v2.0.1...v2.0.2) (2026-02-25)
+
+
+### Continuous integration
+
+* **cd:** make provenance publishing explicit ([#91](https://github.com/Fdawgs/eslint-config/issues/91)) ([58ccae9](https://github.com/Fdawgs/eslint-config/commit/58ccae98054e5a77cefb8769ea312e0ae6ef7b62))
+* **codeql:** check cjs, mjs, and ts files ([#80](https://github.com/Fdawgs/eslint-config/issues/80)) ([0e79d94](https://github.com/Fdawgs/eslint-config/commit/0e79d941c3d684f0dc600b695b9c1285f5a1b3fe))
+* **deps:** bump actions/checkout from 5 to 6 ([#84](https://github.com/Fdawgs/eslint-config/issues/84)) ([9de4b0b](https://github.com/Fdawgs/eslint-config/commit/9de4b0be19b2408113970ac2bc1e101c804f9ff3))
+* **deps:** bump actions/dependency-review-action from 4.8.1 to 4.8.2 ([#85](https://github.com/Fdawgs/eslint-config/issues/85)) ([2d88753](https://github.com/Fdawgs/eslint-config/commit/2d88753c94e6d2dbc79d2e47e99a619cc44f24b2))
+
+
+### Dependencies
+
+* **deps-dev:** bump @eslint/compat in the eslint group ([#83](https://github.com/Fdawgs/eslint-config/issues/83)) ([305adc8](https://github.com/Fdawgs/eslint-config/commit/305adc81190879262b86ee6fbf5fd2e70b5dd106))
+* **deps-dev:** bump @types/node from 24.10.4 to 25.0.3 ([#86](https://github.com/Fdawgs/eslint-config/issues/86)) ([1b49027](https://github.com/Fdawgs/eslint-config/commit/1b49027105161b4eb7d54d3b3f1c85e904caa419))
+
+
+### Miscellaneous
+
+* **.devcontainer:** remove prepare script call ([#82](https://github.com/Fdawgs/eslint-config/issues/82)) ([aed8d60](https://github.com/Fdawgs/eslint-config/commit/aed8d60ad8b6f90511554a5caa76e6927037c7fa))
+* **index:** expect error for missing types, don't ignore ([#81](https://github.com/Fdawgs/eslint-config/issues/81)) ([cc2aee9](https://github.com/Fdawgs/eslint-config/commit/cc2aee98fed73e1e49b494d24f6a1ac2e3763ee5))
+* **license:** add contact email ([#90](https://github.com/Fdawgs/eslint-config/issues/90)) ([c97e324](https://github.com/Fdawgs/eslint-config/commit/c97e32491a7c0dcfff4825870c8eefdf372c1859))
+* tidy dotfiles, remove redundant deps ([#78](https://github.com/Fdawgs/eslint-config/issues/78)) ([4698d63](https://github.com/Fdawgs/eslint-config/commit/4698d6316c80a9f1ab1655ca67ebd846fb5b85c6))
+
 ## [2.0.1](https://github.com/Fdawgs/eslint-config/compare/v2.0.0...v2.0.1) (2025-11-19)
 
 
