@@ -21,7 +21,7 @@ npm i @fdawgs/eslint-config
 
 ## Example usage
 
-Import the package inside of an eslint.config.js file as shown in the [ESLint documentation](https://eslint.org/docs/latest/extend/shareable-configs#using-a-shareable-config) and it will apply the rules defined in the `@fdawgs/eslint-config` package to your project:
+Import the package inside of an eslint.config.js file as shown in the [ESLint documentation](https://eslint.org/docs/latest/extend/shareable-configs#use-a-shareable-config) and it will apply the rules defined in the `@fdawgs/eslint-config` package to your project:
 
 ```js
 import { defineConfig } from "eslint/config";
