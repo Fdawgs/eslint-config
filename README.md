@@ -15,7 +15,7 @@ This package provides a shareable ESLint config that can be used across multiple
 
 Install using `npm`:
 
-```bash
+```sh
 npm i @fdawgs/eslint-config
 ```
 
