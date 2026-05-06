@@ -29,10 +29,9 @@ permissions:
 jobs:
     code-quality:
         name: Code Quality
-        uses: fdawgs/workflows/.github/workflows/reusable-code-quality.yml@v2
+        uses: fdawgs/workflows/.github/workflows/reusable-code-quality.yml@d1e4b4f907d13700a600837a18e8d01c56b179bd # v2.1.0
         permissions:
             contents: read
-        secrets: inherit
         with:
             commitlint: true
             lint: true
