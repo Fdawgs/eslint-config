@@ -5,7 +5,6 @@ import eslint from "@eslint/js";
 import prettier from "eslint-config-prettier/flat";
 
 // Plugins
-// @ts-expect-error: No types exist for this plugin
 import comments from "@eslint-community/eslint-plugin-eslint-comments/configs";
 import jsdoc from "eslint-plugin-jsdoc";
 import n from "eslint-plugin-n";
