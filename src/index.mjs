@@ -5,9 +5,7 @@ import eslint from "@eslint/js";
 import prettier from "eslint-config-prettier/flat";
 
 // Plugins
-// @ts-expect-error: No types exist for this plugin
 import comments from "@eslint-community/eslint-plugin-eslint-comments/configs";
-import imp from "eslint-plugin-import";
 import jsdoc from "eslint-plugin-jsdoc";
 import n from "eslint-plugin-n";
 // @ts-expect-error: No types exist for this plugin
@@ -30,7 +28,7 @@ const config = [
 			sourceType: "commonjs",
 			globals: { ...globals.node },
 		},
-		plugins: { import: imp, jsdoc, n, regexp },
+		plugins: { jsdoc, n, regexp },
 		rules: {
 			// Standard rules
 			// Possible problems
@@ -188,8 +186,6 @@ const config = [
 			"@eslint-community/eslint-comments/disable-enable-pair": "off",
 			"@eslint-community/eslint-comments/no-unused-disable": "error",
 			"@eslint-community/eslint-comments/require-description": "error",
-			// Import rules
-			"import/no-extraneous-dependencies": "error",
 			// JSDoc rules
 			"jsdoc/check-syntax": "error", // Error on Google Closure Compiler annotations as IntelliSense struggles with them
 			"jsdoc/require-hyphen-before-param-description": "error",
@@ -197,6 +193,8 @@ const config = [
 			"n/global-require": "error",
 			"n/hashbang": "error",
 			"n/no-deprecated-api": "error",
+			"n/no-extraneous-import": "error",
+			"n/no-extraneous-require": "error",
 			"n/no-new-require": "error",
 			"n/no-path-concat": "error",
 			"n/no-unsupported-features/es-builtins": "error",
