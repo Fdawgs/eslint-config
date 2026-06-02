@@ -43,7 +43,6 @@
 	"devDependencies": {
 		"@commitlint/cli": "^21.0.1",
 		"@commitlint/config-conventional": "^21.0.1",
-		"@eslint/compat": "^2.0.0",
 		"@types/eslint-plugin-security": "^3.0.1",
 		"@types/node": "^25.6.0",
 		"licensee": "^12.0.1",
