@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.1](https://github.com/Fdawgs/eslint-config/compare/v3.0.0...v3.0.1) (2026-06-18)
+
+
+### Continuous integration
+
+* add ossf scorecard workflow ([#126](https://github.com/Fdawgs/eslint-config/issues/126)) ([0b0d302](https://github.com/Fdawgs/eslint-config/commit/0b0d302d25dddcba4f902ef5ea3f6188013ec5bb))
+* **deps:** bump fastify/github-action-merge-dependabot ([#128](https://github.com/Fdawgs/eslint-config/issues/128)) ([60e99f4](https://github.com/Fdawgs/eslint-config/commit/60e99f4499759de38a16bf345886c280df9af55e))
+* **deps:** bump fdawgs/workflows/.github/workflows/reusable-code-quality.yml ([#121](https://github.com/Fdawgs/eslint-config/issues/121)) ([80e4ac7](https://github.com/Fdawgs/eslint-config/commit/80e4ac7b6a4dddd71a7c8ff952ba241580bed2ae))
+* **deps:** bump fdawgs/workflows/.github/workflows/reusable-link-check.yml ([#120](https://github.com/Fdawgs/eslint-config/issues/120)) ([5a235f7](https://github.com/Fdawgs/eslint-config/commit/5a235f77848a481b87d1b2d5e131228c46786750))
+* **deps:** bump fdawgs/workflows/.github/workflows/reusable-lock-threads.yml ([#119](https://github.com/Fdawgs/eslint-config/issues/119)) ([4c485b2](https://github.com/Fdawgs/eslint-config/commit/4c485b2b949aa80e997ecd6b8bc1f8be98450b91))
+* **deps:** bump github/codeql-action ([#118](https://github.com/Fdawgs/eslint-config/issues/118)) ([b7652af](https://github.com/Fdawgs/eslint-config/commit/b7652af6c48151c724966d1e51bb577185c7376d))
+* **deps:** bump the fdawgs-owned group with 3 updates ([#124](https://github.com/Fdawgs/eslint-config/issues/124)) ([39996fd](https://github.com/Fdawgs/eslint-config/commit/39996fdac62aad2a71298f24bb5cab1740582106))
+* **deps:** bump the fdawgs-owned group with 3 updates ([#127](https://github.com/Fdawgs/eslint-config/issues/127)) ([1ed0623](https://github.com/Fdawgs/eslint-config/commit/1ed062358f6d07225902054d722b62835f410f1e))
+* **deps:** bump the github-owned group with 2 updates ([#125](https://github.com/Fdawgs/eslint-config/issues/125)) ([c7febcc](https://github.com/Fdawgs/eslint-config/commit/c7febcc0f9b6cdccd1e949a1f9c485a62364e487))
+* **link-check:** use sha instead of tag ([#108](https://github.com/Fdawgs/eslint-config/issues/108)) ([4560c14](https://github.com/Fdawgs/eslint-config/commit/4560c14808f9994a1337ef77e25c274d0a462688))
+* **lock-threads:** reduce frequency from daily to monthly ([#111](https://github.com/Fdawgs/eslint-config/issues/111)) ([c655d7c](https://github.com/Fdawgs/eslint-config/commit/c655d7cfc91b07a6a4f5fc0062fdd899b4ea20df))
+* use full-length commit sha for github owned actions ([#113](https://github.com/Fdawgs/eslint-config/issues/113)) ([c7628fe](https://github.com/Fdawgs/eslint-config/commit/c7628fecaae253f63bbfe4e28f28ff8fa625bbf4))
+
+
+### Dependencies
+
+* **.devcontainer:** add lockfile; use bookworm for base image ([#114](https://github.com/Fdawgs/eslint-config/issues/114)) ([35190a8](https://github.com/Fdawgs/eslint-config/commit/35190a89be8c2aac75562417b605521aff7b137b))
+* **dependabot:** add cooldown for actions and devcontainers ([#117](https://github.com/Fdawgs/eslint-config/issues/117)) ([10ba720](https://github.com/Fdawgs/eslint-config/commit/10ba7201c284a85340af11c0b511ac4f7c4b8402))
+* **dependabot:** group github-owned updates ([#110](https://github.com/Fdawgs/eslint-config/issues/110)) ([5b97c8d](https://github.com/Fdawgs/eslint-config/commit/5b97c8d33c3aac2fe04204e3287d77257b1476c9))
+* **deps-dev:** bump the commitlint group with 2 updates ([#115](https://github.com/Fdawgs/eslint-config/issues/115)) ([b0f76e2](https://github.com/Fdawgs/eslint-config/commit/b0f76e252a16b68f2931c22a860fc53cf5cc12dc))
+* **deps:** bump eslint-plugin-jsdoc in the eslint group ([#116](https://github.com/Fdawgs/eslint-config/issues/116)) ([e5f570a](https://github.com/Fdawgs/eslint-config/commit/e5f570a72fbe4b92a2d5537a6d945e44cd9df4f1))
+
+
+### Miscellaneous
+
+* **.nvmrc:** remove redundant prefix ([#112](https://github.com/Fdawgs/eslint-config/issues/112)) ([f701721](https://github.com/Fdawgs/eslint-config/commit/f7017215693d267f5b084fbc9b37460ec5d7ac5c))
+* **.vscode:** remove redundant javascript default formatter ([#123](https://github.com/Fdawgs/eslint-config/issues/123)) ([484359e](https://github.com/Fdawgs/eslint-config/commit/484359e1931739233f48f4ba04b282fb430dc3b7))
+* **eslint.config:** `includeIgnoreFile` from `eslint/config` ([#122](https://github.com/Fdawgs/eslint-config/issues/122)) ([440f10f](https://github.com/Fdawgs/eslint-config/commit/440f10fee11c6d2d49ac41b4c1b4055a0ebaa0be))
+
 ## [3.0.0](https://github.com/Fdawgs/eslint-config/compare/v2.0.1...v3.0.0) (2026-05-06)
 
 
