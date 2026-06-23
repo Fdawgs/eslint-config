@@ -135,7 +135,7 @@ dist
 # Clinic.js
 .clinic
 
-# Generated files
+# Built/generated files
 types/
 
 # Lockfiles
