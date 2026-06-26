@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.3](https://github.com/Fdawgs/eslint-config/compare/v3.0.2...v3.0.3) (2026-06-26)
+
+
+### Continuous integration
+
+* **deps:** bump actions/checkout in the github-owned group ([#138](https://github.com/Fdawgs/eslint-config/issues/138)) ([c61806f](https://github.com/Fdawgs/eslint-config/commit/c61806fa369b4145448702786c73ac24b72a155c))
+* **deps:** bump fastify/github-action-merge-dependabot ([#139](https://github.com/Fdawgs/eslint-config/issues/139)) ([0e41064](https://github.com/Fdawgs/eslint-config/commit/0e410649ed59d7a73104ce1ef077730c211e651b))
+
 ## [3.0.2](https://github.com/Fdawgs/eslint-config/compare/v3.0.0...v3.0.2) (2026-06-26)
 
 
