@@ -1,6 +1,6 @@
 # Changelog
 
-## [3.0.1](https://github.com/Fdawgs/eslint-config/compare/v3.0.0...v3.0.1) (2026-06-18)
+## [3.0.2](https://github.com/Fdawgs/eslint-config/compare/v3.0.0...v3.0.2) (2026-06-26)
 
 
 ### Continuous integration
@@ -31,6 +31,7 @@
 
 ### Miscellaneous
 
+* **editorconfig:** align with prettier ignore rules ([#134](https://github.com/Fdawgs/eslint-config/issues/134)) ([51f68fa](https://github.com/Fdawgs/eslint-config/commit/51f68faee88698173f9b8930bc96b3f2ff468f9e))
 * **.nvmrc:** remove redundant prefix ([#112](https://github.com/Fdawgs/eslint-config/issues/112)) ([f701721](https://github.com/Fdawgs/eslint-config/commit/f7017215693d267f5b084fbc9b37460ec5d7ac5c))
 * **.vscode:** remove redundant javascript default formatter ([#123](https://github.com/Fdawgs/eslint-config/issues/123)) ([484359e](https://github.com/Fdawgs/eslint-config/commit/484359e1931739233f48f4ba04b282fb430dc3b7))
 * **eslint.config:** `includeIgnoreFile` from `eslint/config` ([#122](https://github.com/Fdawgs/eslint-config/issues/122)) ([440f10f](https://github.com/Fdawgs/eslint-config/commit/440f10fee11c6d2d49ac41b4c1b4055a0ebaa0be))
