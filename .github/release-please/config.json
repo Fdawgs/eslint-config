@@ -3,6 +3,7 @@
 	"release-type": "node",
 	"prerelease": false,
 	"include-component-in-tag": false,
+	"skip-github-release": true,
 	"changelog-sections": [
 		{ "section": "Bug fixes", "type": "fix", "hidden": false },
 		{ "section": "Continuous integration", "type": "ci", "hidden": false },
