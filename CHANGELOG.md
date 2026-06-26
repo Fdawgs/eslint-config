@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.3](https://github.com/Fdawgs/eslint-config/compare/v3.0.2...v3.0.3) (2026-06-26)
+
+
+### Miscellaneous
+
+* boop ([bc1f708](https://github.com/Fdawgs/eslint-config/commit/bc1f7087c06f2568776bd5fcbd5ec7def3820881))
+
 ## [3.0.2](https://github.com/Fdawgs/eslint-config/compare/v3.0.0...v3.0.2) (2026-06-26)
 
 
