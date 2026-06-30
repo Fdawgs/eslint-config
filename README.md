@@ -1,9 +1,9 @@
 # @fdawgs/eslint-config
 
-[![GitHub release](https://img.shields.io/github/release/Fdawgs/eslint-config.svg)](https://github.com/Fdawgs/eslint-config/releases/latest/)
-[![npm version](https://img.shields.io/npm/v/@fdawgs/eslint-config)](https://npmjs.com/package/@fdawgs/eslint-config)
+[![GitHub release](https://img.shields.io/github/v/release/Fdawgs/eslint-config)](https://github.com/Fdawgs/eslint-config/releases/latest)
+[![npm version](https://img.shields.io/npm/v/@fdawgs/eslint-config)](https://www.npmjs.com/package/@fdawgs/eslint-config)
 [![CI](https://github.com/Fdawgs/eslint-config/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Fdawgs/eslint-config/actions/workflows/ci.yml)
-[![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
+[![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4?style=flat)](https://github.com/prettier/prettier)
 [![OSSF Scorecard](https://api.scorecard.dev/projects/github.com/Fdawgs/eslint-config/badge)](https://scorecard.dev/viewer/?uri=github.com/Fdawgs/eslint-config)
 
 > @fdawgs' shareable flat ESLint config
