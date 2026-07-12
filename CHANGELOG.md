@@ -1,5 +1,32 @@
 # Changelog
 
+## [3.0.4](https://github.com/Fdawgs/eslint-config/compare/v3.0.3...v3.0.4) (2026-07-12)
+
+
+### Continuous integration
+
+* **cd:** pin installed npm version ([#150](https://github.com/Fdawgs/eslint-config/issues/150)) ([0786a17](https://github.com/Fdawgs/eslint-config/commit/0786a1782de82a1bb61fc2ee398563fc352af47e))
+* **deps:** bump the fdawgs-owned group with 4 updates ([#148](https://github.com/Fdawgs/eslint-config/issues/148)) ([345dee7](https://github.com/Fdawgs/eslint-config/commit/345dee7b6d67a34a242b0f42d0fc36c1fb5a98ee))
+* **deps:** bump the github-owned group with 2 updates ([#149](https://github.com/Fdawgs/eslint-config/issues/149)) ([508cbcf](https://github.com/Fdawgs/eslint-config/commit/508cbcf232caa4215453b36349dbb9cc2d38bfee))
+
+
+### Dependencies
+
+* **dependabot:** remove redundant includes cooldown array ([#146](https://github.com/Fdawgs/eslint-config/issues/146)) ([7fbcde3](https://github.com/Fdawgs/eslint-config/commit/7fbcde37b92f5954b317d91461fd3c15fec52cee))
+* **deps-dev:** bump @types/node from 25.9.4 to 26.0.0 ([#145](https://github.com/Fdawgs/eslint-config/issues/145)) ([bb39dcd](https://github.com/Fdawgs/eslint-config/commit/bb39dcd710a623ee0eb49e4325dd232c4a1e5514))
+* **deps-dev:** bump prettier from 3.8.4 to 3.8.5 ([#147](https://github.com/Fdawgs/eslint-config/issues/147)) ([0c9e0b5](https://github.com/Fdawgs/eslint-config/commit/0c9e0b5723846d061706faa1e38ddd3a95782a4e))
+* **deps-dev:** pin prettier ([#140](https://github.com/Fdawgs/eslint-config/issues/140)) ([0c8ce25](https://github.com/Fdawgs/eslint-config/commit/0c8ce251036af8a532da4d446a5119ed3e3e3a3a))
+
+
+### Documentation
+
+* fix broken links ([#143](https://github.com/Fdawgs/eslint-config/issues/143)) ([5d6adea](https://github.com/Fdawgs/eslint-config/commit/5d6adea5d0e86d2727e997d7cbf671a6d4316aba))
+
+
+### Miscellaneous
+
+* replace http links with https ([#144](https://github.com/Fdawgs/eslint-config/issues/144)) ([481f195](https://github.com/Fdawgs/eslint-config/commit/481f19538e3e0b3174d883a39328c607ea11b8d4))
+
 ## [3.0.3](https://github.com/Fdawgs/eslint-config/compare/v3.0.2...v3.0.3) (2026-06-26)
 
 
